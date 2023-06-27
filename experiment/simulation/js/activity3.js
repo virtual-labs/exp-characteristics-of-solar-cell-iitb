@@ -49,5 +49,4 @@ function load_values() {
         }
     }
 }
-activity3();
 //# sourceMappingURL=activity3.js.map
