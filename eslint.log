@@ -1,0 +1,528 @@
+
+/home/runner/work/exp-characteristics-of-solar-cell-iitb/exp-characteristics-of-solar-cell-iitb/experiment/simulation/js/activity1.js
+    8:14   warning  'Pannel' is not defined                                no-undef
+   14:10   warning  'start_act1' is defined but never used                 no-unused-vars
+   21:10   warning  'move_to_activity3' is defined but never used          no-unused-vars
+   24:5    warning  'activity3' is not defined                             no-undef
+   33:5    warning  'global_score' is assigned a value but never used      no-unused-vars
+   34:5    warning  'a1_panel' is defined but never used                   no-unused-vars
+   35:5    warning  'all_text_content' is assigned a value but never used  no-unused-vars
+   36:5    warning  'canvas_box_scale' is already defined                  no-redeclare
+   36:5    warning  'canvas_box_scale' is assigned a value but never used  no-unused-vars
+   39:5    warning  'a1_scene' is defined but never used                   no-unused-vars
+   46:5    warning  'display_score' is defined but never used              no-unused-vars
+   47:5    warning  'timer1' is assigned a value but never used            no-unused-vars
+   62:17   warning  'Scene' is not defined                                 no-undef
+   67:27   warning  'bootstrap' is not defined                             no-undef
+  105:18   warning  'Chemistry' is not defined                             no-undef
+  105:42   warning  'load' is not defined                                  no-undef
+  105:52   warning  'Chemistry' is not defined                             no-undef
+  108:9    warning  'sq' is already defined                                no-redeclare
+  108:18   warning  'Chemistry' is not defined                             no-undef
+  108:42   warning  'cover_glass' is not defined                           no-undef
+  108:59   warning  'Chemistry' is not defined                             no-undef
+  111:9    warning  'sq' is already defined                                no-redeclare
+  111:18   warning  'Chemistry' is not defined                             no-undef
+  111:42   warning  'photon_source' is not defined                         no-undef
+  111:61   warning  'Chemistry' is not defined                             no-undef
+  114:9    warning  'sq' is already defined                                no-redeclare
+  114:18   warning  'Chemistry' is not defined                             no-undef
+  114:42   warning  'electrode' is not defined                             no-undef
+  114:57   warning  'Chemistry' is not defined                             no-undef
+  117:9    warning  'sq' is already defined                                no-redeclare
+  117:18   warning  'Chemistry' is not defined                             no-undef
+  117:42   warning  'anti_reflection_coating' is not defined               no-undef
+  117:71   warning  'Chemistry' is not defined                             no-undef
+  120:9    warning  'sq' is already defined                                no-redeclare
+  120:18   warning  'Chemistry' is not defined                             no-undef
+  120:42   warning  'n_type_layer' is not defined                          no-undef
+  120:60   warning  'Chemistry' is not defined                             no-undef
+  123:9    warning  'sq' is already defined                                no-redeclare
+  123:18   warning  'Chemistry' is not defined                             no-undef
+  123:42   warning  'p_type_layer' is not defined                          no-undef
+  123:60   warning  'Chemistry' is not defined                             no-undef
+  126:9    warning  'sq' is already defined                                no-redeclare
+  126:18   warning  'Chemistry' is not defined                             no-undef
+  126:42   warning  'depletion_layer' is not defined                       no-undef
+  126:63   warning  'Chemistry' is not defined                             no-undef
+  157:25   warning  'Chemistry' is not defined                             no-undef
+  157:50   warning  'Chemistry' is not defined                             no-undef
+  168:10   warning  'load' is not defined                                  no-undef
+  168:16   warning  'load' is not defined                                  no-undef
+  169:10   warning  'cover_glass' is not defined                           no-undef
+  169:23   warning  'cover_glass' is not defined                           no-undef
+  170:10   warning  'photon_source' is not defined                         no-undef
+  170:25   warning  'photon_source' is not defined                         no-undef
+  171:10   warning  'electrode' is not defined                             no-undef
+  171:21   warning  'electrode' is not defined                             no-undef
+  172:10   warning  'anti_reflection_coating' is not defined               no-undef
+  172:35   warning  'anti_reflection_coating' is not defined               no-undef
+  173:10   warning  'n_type_layer' is not defined                          no-undef
+  173:24   warning  'n_type_layer' is not defined                          no-undef
+  174:10   warning  'p_type_layer' is not defined                          no-undef
+  174:24   warning  'p_type_layer' is not defined                          no-undef
+  175:10   warning  'depletion_layer' is not defined                       no-undef
+  175:27   warning  'depletion_layer' is not defined                       no-undef
+  178:13   warning  'Chemistry' is not defined                             no-undef
+  178:44   warning  'Chemistry' is not defined                             no-undef
+  179:13   warning  'Chemistry' is not defined                             no-undef
+  179:51   warning  'Chemistry' is not defined                             no-undef
+  180:13   warning  'Chemistry' is not defined                             no-undef
+  180:53   warning  'Chemistry' is not defined                             no-undef
+  181:13   warning  'Chemistry' is not defined                             no-undef
+  181:49   warning  'Chemistry' is not defined                             no-undef
+  182:13   warning  'Chemistry' is not defined                             no-undef
+  182:63   warning  'Chemistry' is not defined                             no-undef
+  183:13   warning  'Chemistry' is not defined                             no-undef
+  183:52   warning  'Chemistry' is not defined                             no-undef
+  184:13   warning  'Chemistry' is not defined                             no-undef
+  184:52   warning  'Chemistry' is not defined                             no-undef
+  185:13   warning  'Chemistry' is not defined                             no-undef
+  185:55   warning  'Chemistry' is not defined                             no-undef
+  198:12   warning  Unexpected constant condition                          no-constant-condition
+  220:49   warning  'Chemistry' is not defined                             no-undef
+  223:39   warning  'bootstrap' is not defined                             no-undef
+  255:30   warning  'Chemistry' is not defined                             no-undef
+  255:73   warning  'Chemistry' is not defined                             no-undef
+  283:13   warning  'bsOffcanvas' is already defined                       no-redeclare
+  283:31   warning  'bootstrap' is not defined                             no-undef
+  285:30   warning  'Chemistry' is not defined                             no-undef
+  285:118  warning  'Chemistry' is not defined                             no-undef
+  328:24   warning  'activity3' is not defined                             no-undef
+
+/home/runner/work/exp-characteristics-of-solar-cell-iitb/exp-characteristics-of-solar-cell-iitb/experiment/simulation/js/activity3.js
+   2:10  warning  'activity3' is defined but never used    no-unused-vars
+   3:5   warning  'pp' is not defined                      no-undef
+   4:5   warning  'pp' is not defined                      no-undef
+   5:5   warning  'pp' is not defined                      no-undef
+   6:5   warning  'pp' is not defined                      no-undef
+  36:5   warning  'pp' is not defined                      no-undef
+  37:5   warning  'pp' is not defined                      no-undef
+  38:5   warning  'canvas' is not defined                  no-undef
+  38:14  warning  'pp' is not defined                      no-undef
+  39:5   warning  'context' is not defined                 no-undef
+  39:15  warning  'canvas' is not defined                  no-undef
+  41:5   warning  'canvas' is not defined                  no-undef
+  42:5   warning  'rect' is not defined                    no-undef
+  42:12  warning  'canvas' is not defined                  no-undef
+  43:5   warning  'scene' is not defined                   no-undef
+  43:17  warning  'Scene' is not defined                   no-undef
+  44:16  warning  'Chemistry' is not defined               no-undef
+  44:40  warning  'solar_cell' is not defined              no-undef
+  44:56  warning  'Chemistry' is not defined               no-undef
+  44:93  warning  'canvas' is not defined                  no-undef
+  45:5   warning  'scene' is not defined                   no-undef
+  46:20  warning  'Chemistry' is not defined               no-undef
+  46:44  warning  'meter_stick' is not defined             no-undef
+  46:61  warning  'Chemistry' is not defined               no-undef
+  46:99  warning  'canvas' is not defined                  no-undef
+  47:5   warning  'scene' is not defined                   no-undef
+  55:5   warning  'pp' is not defined                      no-undef
+  57:10  warning  'load_values' is defined but never used  no-unused-vars
+  64:25  warning  'table1' is not defined                  no-undef
+  65:43  warning  'table1' is not defined                  no-undef
+  66:26  warning  'table1' is not defined                  no-undef
+  67:26  warning  'table1' is not defined                  no-undef
+  68:26  warning  'table1' is not defined                  no-undef
+  74:9   warning  'scene' is not defined                   no-undef
+  83:5   warning  'scene' is not defined                   no-undef
+  86:5   warning  'canvas' is not defined                  no-undef
+  87:5   warning  'canvas' is not defined                  no-undef
+  87:21  warning  'canvas' is not defined                  no-undef
+  88:5   warning  'lscale' is not defined                  no-undef
+  88:14  warning  'canvas' is not defined                  no-undef
+  89:59  warning  'canvas' is not defined                  no-undef
+  91:5   warning  'context' is not defined                 no-undef
+  91:26  warning  'canvas' is not defined                  no-undef
+  92:5   warning  'context' is not defined                 no-undef
+
+/home/runner/work/exp-characteristics-of-solar-cell-iitb/exp-characteristics-of-solar-cell-iitb/experiment/simulation/js/activity4.js
+    1:10  warning  'activity4' is defined but never used        no-unused-vars
+    2:5   warning  'pp' is not defined                          no-undef
+    3:5   warning  'pp' is not defined                          no-undef
+    4:5   warning  'pp' is not defined                          no-undef
+    5:5   warning  'pp' is not defined                          no-undef
+   35:5   warning  'pp' is not defined                          no-undef
+   40:25  warning  'rl' is not defined                          no-undef
+   41:92  warning  'rl' is not defined                          no-undef
+   43:5   warning  'pp' is not defined                          no-undef
+   44:5   warning  'canvas' is not defined                      no-undef
+   44:14  warning  'pp' is not defined                          no-undef
+   45:5   warning  'context' is not defined                     no-undef
+   45:15  warning  'canvas' is not defined                      no-undef
+   47:5   warning  'canvas' is not defined                      no-undef
+   48:5   warning  'rect' is not defined                        no-undef
+   48:12  warning  'canvas' is not defined                      no-undef
+   49:5   warning  'scene' is not defined                       no-undef
+   49:17  warning  'Scene' is not defined                       no-undef
+   50:5   warning  'img1' is not defined                        no-undef
+   50:16  warning  'Chemistry' is not defined                   no-undef
+   50:40  warning  'assembly' is not defined                    no-undef
+   50:54  warning  'Chemistry' is not defined                   no-undef
+   50:93  warning  'canvas' is not defined                      no-undef
+   51:5   warning  'scene' is not defined                       no-undef
+   51:15  warning  'img1' is not defined                        no-undef
+   64:5   warning  'pp' is not defined                          no-undef
+   66:10  warning  'change_distance' is defined but never used  no-unused-vars
+   69:5   warning  'selected_index' is not defined              no-undef
+   70:5   warning  'table2' is not defined                      no-undef
+   70:14  warning  'data2' is not defined                       no-undef
+   77:10  warning  'change_lr' is defined but never used        no-unused-vars
+   82:21  warning  'table2' is not defined                      no-undef
+   83:21  warning  'table2' is not defined                      no-undef
+   92:25  warning  'table2' is not defined                      no-undef
+   93:9   warning  'table2' is not defined                      no-undef
+   93:24  warning  'std_deviation' is not defined               no-undef
+   93:38  warning  'table2' is not defined                      no-undef
+   94:9   warning  'table2' is not defined                      no-undef
+   94:24  warning  'std_deviation' is not defined               no-undef
+   94:38  warning  'table2' is not defined                      no-undef
+  101:5   warning  'scene' is not defined                       no-undef
+  104:5   warning  'canvas' is not defined                      no-undef
+  105:5   warning  'canvas' is not defined                      no-undef
+  105:21  warning  'canvas' is not defined                      no-undef
+  106:5   warning  'lscale' is not defined                      no-undef
+  106:14  warning  'canvas' is not defined                      no-undef
+  107:59  warning  'canvas' is not defined                      no-undef
+  109:5   warning  'context' is not defined                     no-undef
+  109:26  warning  'canvas' is not defined                      no-undef
+  110:5   warning  'context' is not defined                     no-undef
+
+/home/runner/work/exp-characteristics-of-solar-cell-iitb/exp-characteristics-of-solar-cell-iitb/experiment/simulation/js/activity4_5.js
+   2:10  warning  'activity4_5' is defined but never used  no-unused-vars
+   3:5   warning  'pp' is not defined                      no-undef
+   4:5   warning  'pp' is not defined                      no-undef
+   5:5   warning  'pp' is not defined                      no-undef
+   6:5   warning  'pp' is not defined                      no-undef
+   8:25  warning  'rl' is not defined                      no-undef
+  11:24  warning  'rl' is not defined                      no-undef
+  12:24  warning  'table2' is not defined                  no-undef
+  13:24  warning  'table2' is not defined                  no-undef
+  16:26  warning  'Table' is not defined                   no-undef
+  17:5   warning  'pp' is not defined                      no-undef
+  19:5   warning  'pp' is not defined                      no-undef
+
+/home/runner/work/exp-characteristics-of-solar-cell-iitb/exp-characteristics-of-solar-cell-iitb/experiment/simulation/js/activity5.js
+    6:10  warning  'activity5' is defined but never used    no-unused-vars
+    7:5   warning  'pp' is not defined                      no-undef
+    8:5   warning  'pp' is not defined                      no-undef
+    9:5   warning  'pp' is not defined                      no-undef
+   10:5   warning  'pp' is not defined                      no-undef
+   25:5   warning  'pp' is not defined                      no-undef
+   26:5   warning  'pp' is not defined                      no-undef
+   30:5   warning  'pp' is not defined                      no-undef
+   31:5   warning  'pp' is not defined                      no-undef
+   38:25  warning  'table2' is not defined                  no-undef
+   39:20  warning  'table2' is not defined                  no-undef
+   40:25  warning  'table2' is not defined                  no-undef
+   55:21  warning  'Chart' is not defined                   no-undef
+  107:41  warning  'selected_index' is not defined          no-undef
+  124:25  warning  'table2' is not defined                  no-undef
+  125:13  warning  'table2' is not defined                  no-undef
+  126:19  warning  'table2' is not defined                  no-undef
+  129:25  warning  'table2' is not defined                  no-undef
+  130:13  warning  'table2' is not defined                  no-undef
+  131:19  warning  'table2' is not defined                  no-undef
+  136:10  warning  'verify_act5' is defined but never used  no-unused-vars
+  139:10  warning  'verify_values' is not defined           no-undef
+  143:10  warning  'verify_values' is not defined           no-undef
+
+/home/runner/work/exp-characteristics-of-solar-cell-iitb/exp-characteristics-of-solar-cell-iitb/experiment/simulation/js/activity6.js
+    1:10  warning  'activity6' is defined but never used           no-unused-vars
+    2:5   warning  'pp' is not defined                             no-undef
+    3:5   warning  'pp' is not defined                             no-undef
+    4:5   warning  'pp' is not defined                             no-undef
+   11:34  warning  'Ma' is not defined                             no-undef
+   14:34  warning  'Mc' is not defined                             no-undef
+   22:34  warning  'MW1' is not defined                            no-undef
+   25:34  warning  'MW2' is not defined                            no-undef
+   33:34  warning  'AA' is not defined                             no-undef
+   36:34  warning  'AB' is not defined                             no-undef
+   39:34  warning  'AC' is not defined                             no-undef
+   47:34  warning  'slope1' is not defined                         no-undef
+   50:34  warning  'slope2' is not defined                         no-undef
+   55:5   warning  'pp' is not defined                             no-undef
+   62:24  warning  'Table2' is not defined                         no-undef
+   69:24  warning  'Table2' is not defined                         no-undef
+   76:24  warning  'Table2' is not defined                         no-undef
+   77:5   warning  'pp' is not defined                             no-undef
+   78:5   warning  'pp' is not defined                             no-undef
+   79:5   warning  'pp' is not defined                             no-undef
+   84:5   warning  'pp' is not defined                             no-undef
+   85:17  warning  'mass_comp1' is not defined                     no-undef
+   85:29  warning  'mass_comp2' is not defined                     no-undef
+   85:41  warning  'moles_comp1' is not defined                    no-undef
+   85:54  warning  'moles_comp2' is not defined                    no-undef
+   85:67  warning  'moles_fraction_comp1' is not defined           no-undef
+   85:89  warning  'moles_fraction_comp2' is not defined           no-undef
+   87:10  warning  'verify_act6_inputs' is defined but never used  no-unused-vars
+   94:10  warning  'verify_values' is not defined                  no-undef
+   94:48  warning  'mass_comp1' is not defined                     no-undef
+   98:10  warning  'verify_values' is not defined                  no-undef
+   98:48  warning  'mass_comp2' is not defined                     no-undef
+  102:10  warning  'verify_values' is not defined                  no-undef
+  102:48  warning  'moles_comp1' is not defined                    no-undef
+  106:10  warning  'verify_values' is not defined                  no-undef
+  106:48  warning  'moles_comp2' is not defined                    no-undef
+  110:10  warning  'verify_values' is not defined                  no-undef
+  110:48  warning  'moles_fraction_comp1' is not defined           no-undef
+  114:10  warning  'verify_values' is not defined                  no-undef
+  114:48  warning  'moles_fraction_comp2' is not defined           no-undef
+  119:5   warning  'activity7' is not defined                      no-undef
+
+/home/runner/work/exp-characteristics-of-solar-cell-iitb/exp-characteristics-of-solar-cell-iitb/experiment/simulation/js/activity7.js
+   2:10   warning  'activity7' is defined but never used    no-unused-vars
+   3:5    warning  'pp' is not defined                      no-undef
+   4:5    warning  'pp' is not defined                      no-undef
+   5:5    warning  'pp' is not defined                      no-undef
+   7:30   warning  'composition' is not defined             no-undef
+   7:42   warning  'selected_index' is not defined          no-undef
+   7:59   warning  'calculated_table' is not defined        no-undef
+   7:76   warning  'selected_index' is not defined          no-undef
+   7:107  warning  'calculated_table' is not defined        no-undef
+   7:124  warning  'selected_index' is not defined          no-undef
+   7:155  warning  'calculated_table' is not defined        no-undef
+   7:172  warning  'selected_index' is not defined          no-undef
+   8:24   warning  'Table' is not defined                   no-undef
+   9:5    warning  'pp' is not defined                      no-undef
+  14:19   warning  'A1' is not defined                      no-undef
+  14:31   warning  'A2' is not defined                      no-undef
+  15:19   warning  'B1' is not defined                      no-undef
+  15:31   warning  'B2' is not defined                      no-undef
+  16:19   warning  'C1' is not defined                      no-undef
+  16:31   warning  'C2' is not defined                      no-undef
+  17:18   warning  'P' is not defined                       no-undef
+  26:5    warning  'pp' is not defined                      no-undef
+  28:10   warning  'verify_act7' is defined but never used  no-unused-vars
+  33:10   warning  'verify_values' is not defined           no-undef
+  33:48   warning  'calculated_table' is not defined        no-undef
+  33:65   warning  'selected_index' is not defined          no-undef
+  37:10   warning  'verify_values' is not defined           no-undef
+  37:48   warning  'calculated_table' is not defined        no-undef
+  37:65   warning  'selected_index' is not defined          no-undef
+  41:10   warning  'verify_values' is not defined           no-undef
+  41:48   warning  'calculated_table' is not defined        no-undef
+  41:65   warning  'selected_index' is not defined          no-undef
+  45:10   warning  'verify_values' is not defined           no-undef
+  45:48   warning  'calculated_table' is not defined        no-undef
+  45:65   warning  'selected_index' is not defined          no-undef
+  53:5    warning  'pp' is not defined                      no-undef
+  54:5    warning  'pp' is not defined                      no-undef
+  55:5    warning  'pp' is not defined                      no-undef
+  58:25   warning  'calculated_table' is not defined        no-undef
+  60:34   warning  'composition' is not defined             no-undef
+  61:29   warning  'calculated_table' is not defined        no-undef
+  62:42   warning  'calculated_table' is not defined        no-undef
+  65:24   warning  'Table' is not defined                   no-undef
+  66:5    warning  'pp' is not defined                      no-undef
+  69:10   warning  'selected_index' is not defined          no-undef
+  70:5    warning  'pp' is not defined                      no-undef
+  71:5    warning  'pp' is not defined                      no-undef
+
+/home/runner/work/exp-characteristics-of-solar-cell-iitb/exp-characteristics-of-solar-cell-iitb/experiment/simulation/js/activity8.js
+   1:10  warning  'activity8' is defined but never used  no-unused-vars
+   2:5   warning  'pp' is not defined                    no-undef
+   3:5   warning  'pp' is not defined                    no-undef
+   8:5   warning  'pp' is not defined                    no-undef
+   9:5   warning  'pp' is not defined                    no-undef
+  14:5   warning  'label' is not defined                 no-undef
+  15:5   warning  'graph_data' is not defined            no-undef
+  16:25  warning  'calculated_table' is not defined      no-undef
+  17:9   warning  'label' is not defined                 no-undef
+  17:20  warning  'calculated_table' is not defined      no-undef
+  18:9   warning  'graph_data' is not defined            no-undef
+  18:34  warning  'calculated_table' is not defined      no-undef
+  33:21  warning  'Chart' is not defined                 no-undef
+  36:21  warning  'label' is not defined                 no-undef
+  40:27  warning  'graph_data' is not defined            no-undef
+  52:27  warning  'graph_data1' is not defined           no-undef
+  85:30  warning  'selected_name' is not defined         no-undef
+  85:61  warning  'composition' is not defined           no-undef
+  85:73  warning  'selected_index' is not defined        no-undef
+  94:5   warning  'pol1_data' is not defined             no-undef
+  94:17  warning  'regression_linear' is not defined     no-undef
+  94:35  warning  'label' is not defined                 no-undef
+  94:42  warning  'graph_data' is not defined            no-undef
+  95:5   warning  'graph_data1' is not defined           no-undef
+  97:25  warning  'label' is not defined                 no-undef
+  98:9   warning  'graph_data1' is not defined           no-undef
+  98:26  warning  'pol1_data' is not defined             no-undef
+  98:41  warning  'label' is not defined                 no-undef
+  98:52  warning  'pol1_data' is not defined             no-undef
+
+/home/runner/work/exp-characteristics-of-solar-cell-iitb/exp-characteristics-of-solar-cell-iitb/experiment/simulation/js/common.js
+   1:10  warning  'verify_values' is defined but never used                no-unused-vars
+  18:10  warning  'std_deviation' is defined but never used                no-unused-vars
+  23:10  warning  'regression_linear' is defined but never used            no-unused-vars
+  40:10  warning  'ascending_random_array' is defined but never used       no-unused-vars
+  42:12  warning  Unexpected constant condition                            no-constant-condition
+  59:10  warning  'regression_linear_2variable' is defined but never used  no-unused-vars
+
+/home/runner/work/exp-characteristics-of-solar-cell-iitb/exp-characteristics-of-solar-cell-iitb/experiment/simulation/js/data.js
+  50:1   warning  'table2' is assigned a value but never used  no-unused-vars
+  51:1   warning  'rl' is assigned a value but never used      no-unused-vars
+  53:20  warning  'std_deviation' is not defined               no-undef
+
+/home/runner/work/exp-characteristics-of-solar-cell-iitb/exp-characteristics-of-solar-cell-iitb/experiment/simulation/js/dummy.js
+  2:14  warning  'Pannel' is not defined  no-undef
+
+/home/runner/work/exp-characteristics-of-solar-cell-iitb/exp-characteristics-of-solar-cell-iitb/experiment/simulation/js/geomerty.js
+   33:49   warning  'lscale' is not defined          no-undef
+   34:49   warning  'lscale' is not defined          no-undef
+   46:23   warning  'pt1' is defined but never used  no-unused-vars
+   46:28   warning  'pt2' is defined but never used  no-unused-vars
+   46:33   warning  'pt3' is defined but never used  no-unused-vars
+   50:24   warning  'geo' is defined but never used  no-unused-vars
+   69:44   warning  'lscale' is not defined          no-undef
+   69:66   warning  'lscale' is not defined          no-undef
+   69:88   warning  'lscale' is not defined          no-undef
+   82:48   warning  'lscale' is not defined          no-undef
+   83:48   warning  'lscale' is not defined          no-undef
+  108:47   warning  'lscale' is not defined          no-undef
+  108:69   warning  'lscale' is not defined          no-undef
+  109:60   warning  'lscale' is not defined          no-undef
+  109:95   warning  'lscale' is not defined          no-undef
+  131:39   warning  'lscale' is not defined          no-undef
+  131:57   warning  'lscale' is not defined          no-undef
+  132:39   warning  'lscale' is not defined          no-undef
+  132:57   warning  'lscale' is not defined          no-undef
+  181:39   warning  'lscale' is not defined          no-undef
+  181:57   warning  'lscale' is not defined          no-undef
+  182:39   warning  'lscale' is not defined          no-undef
+  182:57   warning  'lscale' is not defined          no-undef
+  225:33   warning  'lscale' is not defined          no-undef
+  226:33   warning  'lscale' is not defined          no-undef
+  274:50   warning  'lscale' is not defined          no-undef
+  274:72   warning  'lscale' is not defined          no-undef
+  279:61   warning  'lscale' is not defined          no-undef
+  279:84   warning  'lscale' is not defined          no-undef
+  279:102  warning  'lscale' is not defined          no-undef
+  279:120  warning  'lscale' is not defined          no-undef
+  293:33   warning  'lscale' is not defined          no-undef
+  294:33   warning  'lscale' is not defined          no-undef
+  295:41   warning  'lscale' is not defined          no-undef
+  295:64   warning  'lscale' is not defined          no-undef
+  295:98   warning  'lscale' is not defined          no-undef
+  295:121  warning  'lscale' is not defined          no-undef
+  296:45   warning  'lscale' is not defined          no-undef
+  296:68   warning  'lscale' is not defined          no-undef
+  296:102  warning  'lscale' is not defined          no-undef
+  296:125  warning  'lscale' is not defined          no-undef
+  323:61   warning  'lscale' is not defined          no-undef
+  323:90   warning  'lscale' is not defined          no-undef
+  324:61   warning  'lscale' is not defined          no-undef
+  324:96   warning  'lscale' is not defined          no-undef
+  325:66   warning  'lscale' is not defined          no-undef
+  325:101  warning  'lscale' is not defined          no-undef
+  326:66   warning  'lscale' is not defined          no-undef
+  326:100  warning  'lscale' is not defined          no-undef
+  327:67   warning  'lscale' is not defined          no-undef
+  327:101  warning  'lscale' is not defined          no-undef
+  328:67   warning  'lscale' is not defined          no-undef
+  328:96   warning  'lscale' is not defined          no-undef
+  329:61   warning  'lscale' is not defined          no-undef
+  329:90   warning  'lscale' is not defined          no-undef
+  346:33   warning  'lscale' is not defined          no-undef
+  347:33   warning  'lscale' is not defined          no-undef
+  376:46   warning  'lscale' is not defined          no-undef
+  382:50   warning  'lscale' is not defined          no-undef
+  382:72   warning  'lscale' is not defined          no-undef
+  411:52   warning  'lscale' is not defined          no-undef
+  411:79   warning  'lscale' is not defined          no-undef
+  413:56   warning  'lscale' is not defined          no-undef
+  413:83   warning  'lscale' is not defined          no-undef
+  450:50   warning  'lscale' is not defined          no-undef
+  450:72   warning  'lscale' is not defined          no-undef
+  456:61   warning  'lscale' is not defined          no-undef
+  456:84   warning  'lscale' is not defined          no-undef
+  456:102  warning  'lscale' is not defined          no-undef
+  456:120  warning  'lscale' is not defined          no-undef
+  470:33   warning  'lscale' is not defined          no-undef
+  471:33   warning  'lscale' is not defined          no-undef
+  472:41   warning  'lscale' is not defined          no-undef
+  472:64   warning  'lscale' is not defined          no-undef
+  472:98   warning  'lscale' is not defined          no-undef
+  472:121  warning  'lscale' is not defined          no-undef
+  473:45   warning  'lscale' is not defined          no-undef
+  473:68   warning  'lscale' is not defined          no-undef
+  473:102  warning  'lscale' is not defined          no-undef
+  473:125  warning  'lscale' is not defined          no-undef
+  502:50   warning  'lscale' is not defined          no-undef
+  502:72   warning  'lscale' is not defined          no-undef
+  507:139  warning  'lscale' is not defined          no-undef
+  507:172  warning  'lscale' is not defined          no-undef
+  507:205  warning  'lscale' is not defined          no-undef
+  507:225  warning  'lscale' is not defined          no-undef
+  528:50   warning  'lscale' is not defined          no-undef
+  528:72   warning  'lscale' is not defined          no-undef
+  533:139  warning  'lscale' is not defined          no-undef
+  533:172  warning  'lscale' is not defined          no-undef
+  533:205  warning  'lscale' is not defined          no-undef
+  533:225  warning  'lscale' is not defined          no-undef
+  555:50   warning  'lscale' is not defined          no-undef
+  555:72   warning  'lscale' is not defined          no-undef
+  560:133  warning  'lscale' is not defined          no-undef
+  560:172  warning  'lscale' is not defined          no-undef
+  560:205  warning  'lscale' is not defined          no-undef
+  560:224  warning  'lscale' is not defined          no-undef
+  584:39   warning  'lscale' is not defined          no-undef
+  584:53   warning  'lscale' is not defined          no-undef
+  585:39   warning  'lscale' is not defined          no-undef
+  585:53   warning  'lscale' is not defined          no-undef
+  586:39   warning  'lscale' is not defined          no-undef
+  586:53   warning  'lscale' is not defined          no-undef
+  587:39   warning  'lscale' is not defined          no-undef
+  587:53   warning  'lscale' is not defined          no-undef
+  594:36   warning  'lscale' is not defined          no-undef
+  594:50   warning  'lscale' is not defined          no-undef
+  594:63   warning  'lscale' is not defined          no-undef
+  605:36   warning  'lscale' is not defined          no-undef
+  605:50   warning  'lscale' is not defined          no-undef
+  605:63   warning  'lscale' is not defined          no-undef
+  632:46   warning  'lscale' is not defined          no-undef
+  637:50   warning  'lscale' is not defined          no-undef
+  637:72   warning  'lscale' is not defined          no-undef
+  659:50   warning  'lscale' is not defined          no-undef
+  659:72   warning  'lscale' is not defined          no-undef
+  663:46   warning  'lscale' is not defined          no-undef
+  664:46   warning  'lscale' is not defined          no-undef
+  664:67   warning  'lscale' is not defined          no-undef
+  665:49   warning  'lscale' is not defined          no-undef
+  702:50   warning  'lscale' is not defined          no-undef
+  702:72   warning  'lscale' is not defined          no-undef
+  718:38   warning  'lscale' is not defined          no-undef
+  718:51   warning  'lscale' is not defined          no-undef
+  720:38   warning  'lscale' is not defined          no-undef
+  722:38   warning  'lscale' is not defined          no-undef
+  722:52   warning  'lscale' is not defined          no-undef
+
+/home/runner/work/exp-characteristics-of-solar-cell-iitb/exp-characteristics-of-solar-cell-iitb/experiment/simulation/js/pannel.js
+    8:7  warning  'Pannel' is defined but never used  no-unused-vars
+  151:7  warning  'Table2' is defined but never used  no-unused-vars
+
+/home/runner/work/exp-characteristics-of-solar-cell-iitb/exp-characteristics-of-solar-cell-iitb/experiment/simulation/js/scene.js
+   1:7    warning  'Scene' is defined but never used         no-unused-vars
+  11:9    warning  'context' is not defined                  no-undef
+  11:33   warning  'canvas' is not defined                   no-undef
+  11:47   warning  'canvas' is not defined                   no-undef
+  27:5    warning  'context' is not defined                  no-undef
+  28:9    warning  'grd' is assigned a value but never used  no-unused-vars
+  28:15   warning  'context' is not defined                  no-undef
+  28:44   warning  'canvas' is not defined                   no-undef
+  28:62   warning  'canvas' is not defined                   no-undef
+  28:84   warning  'canvas' is not defined                   no-undef
+  28:102  warning  'canvas' is not defined                   no-undef
+  28:121  warning  'canvas' is not defined                   no-undef
+  36:5    warning  'context' is not defined                  no-undef
+  37:5    warning  'context' is not defined                  no-undef
+  37:28   warning  'canvas' is not defined                   no-undef
+  37:42   warning  'canvas' is not defined                   no-undef
+  38:5    warning  'context' is not defined                  no-undef
+  39:5    warning  'context' is not defined                  no-undef
+
+/home/runner/work/exp-characteristics-of-solar-cell-iitb/exp-characteristics-of-solar-cell-iitb/experiment/simulation/js/test.js
+  2:14  warning  'Pannel' is not defined                     no-undef
+  4:5   warning  'table' is assigned a value but never used  no-unused-vars
+
+✖ 495 problems (0 errors, 495 warnings)
+
