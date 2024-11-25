@@ -2,7 +2,7 @@ let label = [];
 let graph_data = [];
 let isc;
 let voc;
-var first_btn = `<button id="panel1_btn" class="btn btn-primary" onclick="verify_act5();" style=" position: absolute; bottom: 8vh; width: 85%;">Verify</button>`;
+var first_btn = `<button id="panel1_btn" class="btn btn-primary" onclick="verify_act5();" style="bottom:12.5%;">Verify</button>`;
 function activity5() {
     pp.clearleftpannel();
     pp.clearrightpannel();
@@ -11,19 +11,48 @@ function activity5() {
     draw_chart();
     calculate_current_voltage();
     let right_panel_text = `
+   
+   <div>
+   Average solar irradiance = 1361 W/m<sup>2</sup> <br>
+   Surface area if the cell = 6cm<sup>2</sup>
+</div>
 
-    <div style='padding-top: 8%;'>
-        <label for="">Current, I<sub>SC</sub></label>
-        <input class='form-control' type="text" id="isc-inp">
-    </div>
+<div style='padding-top: 3%;'>
+<label for="">Voltage at maximum power (V<sub>MP</sub>)</label>
+<input class='form-control' type="text" id="">
+</div>
 
-    <div style='padding-top: 8%;'>
-        <label for="">Votage, V<sub>OC</sub></label>
-        <input class='form-control' type="text" id="voc-inp">
-    </div>
-    `;
+<div style='padding-top: 3%;'>
+<label for="">Current at maximum power (I<sub>MP</sub>)</label>
+<input class='form-control' type="text" id="">
+</div>
+
+<div style='padding-top: 3%;'>
+   <label for="">Voltage at open circuit (V<sub>OC</sub>)</label>
+   <input class='form-control' type="text" id="voc-inp">
+</div>
+
+<div style='padding-top: 3%;'>
+   <label for="">Current at short circuit (I<sub>SC</sub>)</label>
+   <input class='form-control' type="text" id="isc-inp">
+</div>
+
+<div>
+   <label for="">$$\\text{Fill factor} =  \\frac{V_{MP} \× I_{MP}}{V_{OC} \× I_{SC}}$$</label>
+   <input class='form-control' type="text" id="">
+
+<div>
+   <label for="">$$&eta; = \\frac{V_{MP} \× I_{MP}}{\\text{Irradiance} \× \\text{Surface area of the cell}} $$</label>
+   <input class='form-control' type="text" id="">
+</div>
+
+<button  class="btn btn-primary" onclick="verify_act5();">Verify</button>
+ 
+
+   `;
     pp.showdescription(right_panel_text, 3);
-    pp.addtorightpannel(first_btn, 3);
+    // pp.addtorightpannel(first_btn, 3);
+    MathJax.typeset();
 }
 function draw_chart() {
     //document.getElementById('hide_panel3').click();
@@ -41,11 +70,11 @@ function draw_chart() {
     }
     // calculate_y_datapoints();
     var ctx = document.getElementById('myChart');
-    ctx.style.backgroundColor = "white";
-    ctx.style.marginTop = "5px";
-    ctx.style.marginLeft = "10%";
-    ctx.style.padding = "10px";
-    ctx.style.borderRadius = "8px";
+    ctx.style.backgroundColor = 'white';
+    ctx.style.marginTop = '5px';
+    ctx.style.marginLeft = '10%';
+    ctx.style.padding = '10px';
+    ctx.style.borderRadius = '8px';
     if (typeof chart != 'undefined') {
         chart.destroy();
     }
@@ -64,24 +93,8 @@ function draw_chart() {
                     borderColor: 'blue',
                     tension: 0.5,
                     showLine: true,
-                    // yAxisID: 'A',
-                    // borderWidth: 1,
-                    // borderColor: "green",
-                    // backgroundColor: "rgba(34, 139, 34, 0.5)",
                 },
-                // {
-                //     label: 'Best Fit y = mx + c',
-                //     data: graph_data1,
-                //     fill: false,
-                //     borderColor: 'red',
-                //     tension: 0.5,
-                //     showLine: true
-                //     // yAxisID: 'A',
-                //     // borderWidth: 1,
-                //     // borderColor: "red",
-                //     // backgroundColor: "rgba(255, 0, 0, 0.5)",
-                // },
-            ]
+            ],
         },
         options: {
             maintainAspectRatio: true,
@@ -90,26 +103,26 @@ function draw_chart() {
                     title: {
                         display: true,
                         text: 'Current (μA)',
-                        font: { size: 14, weight: 'bold' }
-                    }
+                        font: { size: 14, weight: 'bold' },
+                    },
                 },
                 x: {
                     title: {
                         display: true,
                         text: 'Voltage (mV)',
-                        font: { size: 14, weight: 'bold' }
-                    }
-                }
+                        font: { size: 14, weight: 'bold' },
+                    },
+                },
             },
             plugins: {
                 title: {
                     display: true,
-                    text: `Distance : ${selected_index.substring(1)} Current vs Voltage`,
+                    text: `Current vs Voltage, Distance : ${selected_index.substring(1)}cm `,
                     font: { size: 18 },
                 },
-                legend: { labels: { font: { size: 14, weight: 'bold' } } }
+                legend: { labels: { font: { size: 14, weight: 'bold' } } },
             },
-        }
+        },
     });
 }
 //   function calculate_y_datapoints() {
@@ -134,20 +147,22 @@ function calculate_current_voltage() {
     }
 }
 function verify_act5() {
-    let val1 = document.getElementById(`isc-inp`);
-    let val2 = document.getElementById(`voc-inp`);
+    let val1 = (document.getElementById(`isc-inp`));
+    let val2 = (document.getElementById(`voc-inp`));
+    console.log('isc', isc);
+    console.log('voc', voc);
     if (!verify_values(parseFloat(val1.value), isc)) {
-        alert(`please check first Comp 1/External Std value`);
+        alert(`Please check current, Isc value`);
         return;
     }
     if (!verify_values(parseFloat(val2.value), voc)) {
-        alert(`please check first Comp 2/External Std  value`);
+        alert(`Please check voltage, Voc value`);
         return;
     }
     val1.value = isc.toFixed(1);
     val1.disabled = true;
     val2.value = voc.toFixed(1);
     val2.disabled = true;
-    alert("All Values are Correct!!");
+    alert('All Values are Correct!!');
 }
 //# sourceMappingURL=activity5.js.map

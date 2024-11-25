@@ -1,1 +1,1 @@
-## Experiment name
+## To Study The Characteristics Of Solar Cell
