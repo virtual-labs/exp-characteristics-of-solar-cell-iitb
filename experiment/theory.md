@@ -1,8 +1,8 @@
-##Apparatus
+<h3>Apparatus</h3>
 
 <p>Solar cell, source of light, voltmeter, ammeter, variable resistance.</p>
 
-##Theory
+<h3>Theory</h3>
 
 <p>A solar cell (or a "photovoltaic" cell) is a device that converts photons from the sun (solar light) into electricity. It is a device which is made of p-n junction diode.</p>
 
@@ -14,18 +14,25 @@
 
 <p>The materials which are used for this purpose must have band gap close to 1.5ev. Commonly used materials are- Silicon, GaAs, CuInSe2. The criteria for Materials to be Used in Solar Cell is the material must have band gap from 1ev to 1.8ev, it must have high optical absorption and it must have high electrical conductivity.</p>
 
-##Diagram
+<h3>Diagram</h3>
 
-![Diagram](./images/dia1.png)
+<img src="./images/dia1.png">
+
 
 <p>The efficiency of a solar cell is determined as the fraction of incident power which is converted to electricity and is defined as:</p>
 
-![Formula](./images/formula1.png)
+<img src="./images/formula1.png">
 
-where,
+
+
+<p>
+   where, 
+   <br>
 &emsp;&emsp;&emsp; V<sub>oc</sub> is the open-circuit voltage,
+   <br>
 &emsp;&emsp;&emsp; I<sub>sc</sub> is the short-circuit current,
+   <br>
 &emsp;&emsp;&emsp; FF is the fill factor,
+   <br>
 &emsp;&emsp;&emsp; η is the efficiency.
-
-<script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"> </script>
+</p><script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"> </script>
