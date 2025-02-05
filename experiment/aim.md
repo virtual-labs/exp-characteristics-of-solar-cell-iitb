@@ -1,4 +1,3 @@
+<h2>AIM</h2>
 
-## AIM
-
-<p> To draw the I-V Characteristics of a solar cell. </p> 
+<h3> To draw the I-V Characteristics of a solar cell. </h3> 
