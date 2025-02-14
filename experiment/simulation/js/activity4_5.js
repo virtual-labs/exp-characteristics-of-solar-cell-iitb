@@ -4,6 +4,7 @@ function activity4_5() {
     pp.clearrightpannel();
     pp.addoffcanvas(3);
     pp.showtitle('To Study The Characteristics Of Solar Cell', 3);
+    pp.showdescription("Click <strong>Next</strong> to plot Current vs Voltage characterstics.", 3);
     let table3 = [];
     for (let i = 0; i < rl.length; i++) {
         table3[i] = [];
